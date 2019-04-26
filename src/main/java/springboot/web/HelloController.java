@@ -13,7 +13,7 @@ public class HelloController {
 	@RequestMapping("/hello")
 	public String Hellp() throws Exception {
 		if(true){
-            throw new Exception("some exception");
+            throw new Exception("some exception!!!");
         }
 		return "Hello Spring !!";
 	}
